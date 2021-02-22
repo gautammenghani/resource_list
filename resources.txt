@@ -1,17 +1,23 @@
 0. TOOLS & OTHER RESOURCES
-  a. beef : Browser exploitation framework
-  b. Payloads : https://github.com/swisskyrepo/PayloadsAllTheThings
-  c. jwt-cracker : https://github.com/lmammino/jwt-cracker
-  d. SSTI reference : https://github.com/DiogoMRSilva/websitesVulnerableToSSTI
-  e. Convert IP to decimal/hexadecimal : https://gist.github.com/mzfr/fd9959bea8e7965d851871d09374bb72
+  - Payloads : https://github.com/swisskyrepo/PayloadsAllTheThings
+  - jwt-cracker : https://github.com/lmammino/jwt-cracker
+  - SSTI reference : https://github.com/DiogoMRSilva/websitesVulnerableToSSTI
+  - Convert IP to decimal/hexadecimal : https://gist.github.com/mzfr/fd9959bea8e7965d851871d09374bb72
+  -  ZAP	
+    - Forum : https://groups.google.com/forum/#!forum/zaproxy-users 
+    - Short videos : https://www.alldaydevops.com/zap-in-ten
+    - UI overview : https://www.zaproxy.org/docs/desktop/ui/
+  - SSH
+    - https://www.digitalocean.com/community/tutorials/ssh-essentials-working-with-ssh-servers-clients-and-keys
+  - XSS resources
+    - List of resources : xss-payloads.com
 
-1. ZAP	
-  - Forum : https://groups.google.com/forum/#!forum/zaproxy-users 
-  - Short videos : https://www.alldaydevops.com/zap-in-ten
-  - UI overview : https://www.zaproxy.org/docs/desktop/ui/
+1. Scanning and Enumeration
+  - nbtscan : tool that scans for open NETBIOS nameservers on a local or remote server
+  - rpcclient : a utility initially developed to test MS-RPC functionality in Samba itself
+  - snmpenum : enumerate snmp
 
-2. SSH
-  - https://www.digitalocean.com/community/tutorials/ssh-essentials-working-with-ssh-servers-clients-and-keys
+2. Exploiting
 
 3. Linux privesc
   - https://github.com/rebootuser/LinEnum
@@ -23,5 +29,5 @@
       1. find / -type f -user www-data 2>/dev/null
       2. find / -type d -user www-data 2>/dev/null
 
-4. XSS resources
-  - List of resources : xss-payloads.com
+4. Active directory
+  - shareenum : Enumerate shares from windows hosts (https://github.com/CroweCybersecurity/shareenum)
