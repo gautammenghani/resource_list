@@ -31,3 +31,6 @@
 
 4. Active directory
   - shareenum : Enumerate shares from windows hosts (https://github.com/CroweCybersecurity/shareenum)
+
+5. Windows privesc
+  - Abusing token privileges : https://www.exploit-db.com/papers/42556
