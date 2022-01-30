@@ -53,3 +53,4 @@
 
 # Reverse engineering
   1. [Crackmes](https://crackmes.one/)
+  2. [Symbolic analysis](https://p.ost2.fyi/courses/course-v1:OpenSecurityTraining2+RE3201_symexec+2021_V1/about)
