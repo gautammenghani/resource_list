@@ -1,5 +1,5 @@
 # Pentesting
-## Common tools and misc resources
+### Common tools and misc resources
   * Payloads : https://github.com/swisskyrepo/PayloadsAllTheThings
   * jwt-cracker : https://github.com/lmammino/jwt-cracker
   * SSTI reference : https://github.com/DiogoMRSilva/websitesVulnerableToSSTI
@@ -13,12 +13,12 @@
   * XSS resources
     * List of resources : xss-payloads.com
 
-## Scanning and Enumeration
+### Scanning and Enumeration
   * nbtscan : tool that scans for open NETBIOS nameservers on a local or remote server
   * rpcclient : a utility initially developed to test MS-RPC functionality in Samba itself
   * snmpenum : enumerate snmp
 
-## Linux privesc
+### Linux privesc
   * https://github.com/rebootuser/LinEnum
   * GTFOBins : https://gtfobins.github.io/
   * Check what cmnds can I ran as sudo : sudo -l	
@@ -28,28 +28,28 @@
     * find / -type f -user www-data 2\>/dev/null
     * find / -type d -user www-data 2\>/dev/null
 
-## Active directory
+### Active directory
   * shareenum : Enumerate shares from windows hosts (https://github.com/CroweCybersecurity/shareenum)
 
-## Windows privesc
+### Windows privesc
   * Abusing token privileges : https://www.exploit-db.com/papers/42556
   * Living off the land binaries: https://lolbas-project.github.io/
 
-## Malware
+### Malware
   * Security incident reports: https://github.com/aptnotes
   * UI for aptnotes/whois/samples, etc : threatminer.org
  
 # Windows internals
-## Tools to understand working of windows
+### Tools to understand working of windows
   * [nirsoft.net](https://nirsoft.net)
   * [Sysinternal suite](https://docs.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite)
 
-## Books
+### Books
   * [Windows internals](https://docs.microsoft.com/en-us/sysinternals/resources/windows-internals)
 
 # Binary exploitation
   1. [Liveoverflow's playlist](https://www.youtube.com/playlist?list=PLhixgUqwRTjxglIswKp9mpkfPNfHkzyeN)
   2. [Pwn.college \- ASU's security course](https://pwn.college)
 
-## Reverse engineering
+# Reverse engineering
   1. [Crackmes](https://crackmes.one/)
